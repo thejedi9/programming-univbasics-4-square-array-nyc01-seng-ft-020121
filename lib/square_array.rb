@@ -6,7 +6,7 @@ def square_array(numbers)
     sqr_numbers << numbers[counter]*numbers[counter]
     counter += 1
     end
-    sqr_numbers
+    square_array
 end
 
 def square_array(new_numbers)
@@ -17,5 +17,5 @@ def square_array(new_numbers)
     sqr_numbers << new_numbers[counter]*new_numbers[counter]
     counter += 1
     end
-    sqr_numbers
+    square_array
 end
