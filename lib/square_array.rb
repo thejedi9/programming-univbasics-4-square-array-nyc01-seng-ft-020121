@@ -3,7 +3,7 @@ def square_array(numbers)
   counter = 0
   sqrd_numbers=[]
   while numbers[counter] do
-    sqrd_numbers<< numbers[counter]**2
+    sqrd_numbers<< numbers(counter)**2
     counter += 1
     end
   sqrd_numbers
@@ -13,7 +13,7 @@ def new_square_array(new_numbers)
   counter = 0
   new_sqr_numbers=[]
   while new_numbers[counter] do
-    new_sqr_numbers<< new_numbers[counter]**2
+    new_sqr_numbers<< new_numbers(counter)**2
     counter += 1
     end
   new_sqr_numbers
