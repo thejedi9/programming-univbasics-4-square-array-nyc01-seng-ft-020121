@@ -16,7 +16,7 @@ def new_square_array(new_numbers)
     counter += 1
     end
     
-  sqrd_numbers
+  
   new_sqr_numbers
   end
 end  
