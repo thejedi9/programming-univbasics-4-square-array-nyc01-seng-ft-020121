@@ -19,4 +19,3 @@ def square_array(new_numbers)
     end
     new_sqr_numbers
   end
-end
