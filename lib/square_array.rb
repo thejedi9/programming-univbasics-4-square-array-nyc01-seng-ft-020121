@@ -3,7 +3,7 @@ def square_array(numbers)
   squared_numbers = Array.new(numbers.size)
   counter = 0
   while numbers[counter] = numbers.size do
-    squared_numbers[counter] = numbers[counter]**2
+    squared_numbers[counter] = square (numbers[counter])
     counter += 1
   end
   squared_numbers
