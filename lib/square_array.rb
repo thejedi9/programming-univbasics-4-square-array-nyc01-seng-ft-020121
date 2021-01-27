@@ -9,7 +9,8 @@ def square_array
   puts sqrd_numbers
 end
   
-def new_square_array('9,10,16,25')
+def new_square_array
+  new_numbers = [9,10,16,25]
   counter = 0
   new_sqr_numbers=[]
   while new_numbers[counter] do
