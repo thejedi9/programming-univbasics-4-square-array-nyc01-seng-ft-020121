@@ -7,9 +7,7 @@ def square_array(numbers)
     counter += 1
   end
     p sqrd_numbers
-end
- 
-def n_square_array(new_numbers)
+
   new_numbers = [9,10,16,25]
   counter = 0
   new_sqr_numbers=[]
@@ -17,6 +15,6 @@ def n_square_array(new_numbers)
     new_sqr_numbers<< new_numbers[counter]**2
     counter += 1
     end
-    p new_sqr_numbers
+  p new_sqr_numbers
 end
   
