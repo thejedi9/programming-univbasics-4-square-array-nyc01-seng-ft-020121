@@ -4,7 +4,7 @@ def square_array(numbers)
   counter = 0
   while numbers[counter] < numbers.size do
     squared_numbers(counter) = numbers[counter] ** 2
-    count += 1
+    counter += 1
   end
   squared_numbers
 end
