@@ -7,7 +7,7 @@ def square_array(numbers)
     counter += 1
     end
     sqrd_numbers
-end
+
 
 def square_array(new_numbers)
   new_numbers = [9,10,16,25]
