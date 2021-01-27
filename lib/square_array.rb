@@ -18,4 +18,5 @@ def square_array(new_numbers)
     counter += 1
     end
     new_sqr_numbers
+  end
 end
