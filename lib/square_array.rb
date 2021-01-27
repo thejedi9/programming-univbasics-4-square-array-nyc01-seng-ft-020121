@@ -6,7 +6,7 @@ def square_array(numbers)
     sqrd_numbers<< numbers[counter]**2
     counter += 1
     end
-  square_array
+  puts sqrd_numbers
   
 def new_square_array(new_numbers)
   new_numbers = [9,10,16,25]
