@@ -18,5 +18,5 @@ def new_square_array(new_numbers)
     
   sqrd_numbers
   new_sqr_numbers
-end
-  
+  end
+end  
