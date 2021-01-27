@@ -1,5 +1,5 @@
 def square_array(numbers)
-  numbers = ([1,2,3])
+  numbers = [1,2,3]
   counter = 0
   sqrd_numbers=[]
   while numbers[counter] do
@@ -10,7 +10,7 @@ def square_array(numbers)
 end
   
 def new_square_array(new_numbers)
-  new_numbers = ([9,10,16,25])
+  new_numbers = [9,10,16,25]
   counter = 0
   new_sqr_numbers=[]
   while new_numbers[counter] do
