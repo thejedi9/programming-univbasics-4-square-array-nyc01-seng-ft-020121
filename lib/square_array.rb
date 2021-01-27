@@ -1,5 +1,4 @@
-def square_array(numbers)
-  numbers = [1,2,3]
+def square_array(1,2,3)
   counter = 0
   sqrd_numbers=[]
   while numbers[counter] do
